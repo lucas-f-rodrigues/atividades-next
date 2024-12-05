@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "receitas",
+  "info": {
+    "singularName": "receita",
+    "pluralName": "receitas",
+    "displayName": "Receita"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Capa": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Preparo": {
+      "type": "integer"
+    },
+    "Porcoes": {
+      "type": "decimal"
+    },
+    "Conteudo": {
+      "type": "richtext"
+    }
+  }
+}
